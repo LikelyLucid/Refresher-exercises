@@ -10,7 +10,7 @@ weight_lost = 454 / 3500 #mg / calories
 bike_hours = int(input("How many hours did you bike? "))
 jogging_hours = int(input("How many hours did you jog? "))
 swimming_hours = int(input("How many hours did you swim? "))
-total
+total_calor
 
 print("you lost", )
 
