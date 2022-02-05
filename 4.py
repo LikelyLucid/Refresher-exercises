@@ -15,4 +15,4 @@ for student in students:
     student = student[0]
     grade = student[1]
     # convert grade to interger
-    
+    grade = int(grade)
