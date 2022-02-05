@@ -10,4 +10,5 @@ while True:
 print("The average grade is:", sum(student[1] for student in students) / len(students))
 print("The best grade is:", max(student[1] for student in students))
 
-for i in range 
+for i in range (len(students)):
+    print("The grade of", students[i][0], "is", students[i][1])
