@@ -17,7 +17,7 @@ for student in students:
     student = student[0]
     grade = student[1]
     # convert grade to interger
-    grade = int(grade)
+    grade = int(float(grade)
     if grade >= 90:
         final_grade = "A+"
     elif grade >= 85:
