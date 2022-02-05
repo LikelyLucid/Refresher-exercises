@@ -12,4 +12,4 @@ print("The average grade is:", sum(student[1] for student in students) / len(stu
 print("The best grade is:", max(student[1] for student in students))
 
 for student in students:
-    print("The grade of", student[0], "is", student[1])
+    grade = student[1]
