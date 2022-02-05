@@ -26,4 +26,6 @@ for student in students:
     elif grade >= 70:
         final_grade = "B"
     elif grade >= 65:
-        fi
+        final_grade = "B-"
+    elif grade >= 60:
+        
