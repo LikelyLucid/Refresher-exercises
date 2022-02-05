@@ -4,6 +4,4 @@ seconds = float(
 
 # Calculate the distance of the storm
 distance = seconds * 340
-
-# Display the distance of the storm
 print("The distance of the storm is", distance, "meters")
