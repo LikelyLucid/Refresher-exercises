@@ -8,6 +8,7 @@ while True:
         break
     print(Student)
     Grade = int(input("Enter the grade of the student: "))
+    print(Grade)
     students.append([Student, Grade])
 print("The average grade is:", sum(student[1] for student in students) / len(students))
 print("The best grade is:", max(student[1] for student in students))
