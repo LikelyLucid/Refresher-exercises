@@ -15,4 +15,5 @@ for student in students:
     student = student[0]
     grade = student[1]
 
-    if grade > 90
+    if grade > 90:
+        final_grade = "A"
