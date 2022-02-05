@@ -11,6 +11,6 @@ bike_hours = int(input("How many hours did you bike? "))
 jogging_hours = int(input("How many hours did you jog? "))
 swimming_hours = int(input("How many hours did you swim? "))
 
-
+print
 
 
