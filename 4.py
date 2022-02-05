@@ -36,4 +36,4 @@ for student in students:
     elif grade >= 40:
         final_grade = "D"
     else:
-        final_grade = "F"
+        final_grade = "E"
