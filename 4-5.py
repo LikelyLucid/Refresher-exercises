@@ -1,4 +1,3 @@
-
 students = []
 while True:
     Student = input("Enter the name of the student: ")
