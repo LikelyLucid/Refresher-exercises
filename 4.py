@@ -6,6 +6,7 @@ while True:
     Student = input("Enter the name of the student: ")
     if Student == "X":
         break
+    pr
     Grade = int(input("Enter the grade of the student: "))
     students.append([Student, Grade])
 print("The average grade is:", sum(student[1] for student in students) / len(students))
