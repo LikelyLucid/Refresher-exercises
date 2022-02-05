@@ -12,6 +12,6 @@ jogging_hours = int(input("How many hours did you jog? "))
 swimming_hours = int(input("How many hours did you swim? "))
 total_calories = bike_hours * biking_cal + jogging_hours * jogging_cal + swimming_hours * swimming_cal
 
-print("you lost", total)
+print("you lost", total_calories * weight_lost, "kg")
 
 
