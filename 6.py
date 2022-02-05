@@ -1,2 +1,2 @@
 biking_cal = 200
-jogging_cal = 300
+jogging_cal = 
