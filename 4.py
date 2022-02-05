@@ -9,3 +9,5 @@ while True:
     students.append([Student, Grade])
 print("The average grade is:", sum(student[1] for student in students) / len(students))
 print("The best grade is:", max(student[1] for student in students))
+
+for i in range 
