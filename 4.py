@@ -30,4 +30,6 @@ for student in students:
     elif grade >= 60:
         final_grade = "C+"
     elif grade >= 55:
-        final
+        final_grade = "C"
+    elif grade >= 50:
+        
