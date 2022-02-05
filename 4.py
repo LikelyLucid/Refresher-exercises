@@ -16,3 +16,27 @@ for student in students:
     grade = student[1]
     # convert grade to interger
     grade = int(grade)
+    if grade >= 90:
+        final_grade = "A+"
+    elif grade >= 85:
+        final_grade = "A"
+    elif grade >= 80:
+        final_grade = "A-"
+    elif grade >= 75:
+        final_grade = "B+"
+    elif grade >= 70:
+        final_grade = "B"
+    elif grade >= 65:
+        final_grade = "B-"
+    elif grade >= 60:
+        final_grade = "C+"
+    elif grade >= 55:
+        final_grade = "C"
+    elif grade >= 50:
+        final_grade = "C-"
+    elif grade >= 40:
+        final_grade = "D"
+    else:
+        final_grade = "E"
+
+    print(student," - " ,final_grade)
