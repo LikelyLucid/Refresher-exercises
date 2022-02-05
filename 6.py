@@ -4,6 +4,7 @@ swimming_cal = 275
 # all hours
 weight_lost = 454 / 3500 #mg / calories
 
+bike_hours = int(input("How many hours did you bike? "))
 
 
 
