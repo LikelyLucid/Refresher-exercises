@@ -17,7 +17,7 @@ for student in students:
 
     if grade >= 90:
         final_grade = "A+"
-    elif grade > 85:
+    elif grade >= 85:
         final_grade = "A"
-    elif grade > 80:
+    elif grade >= 80:
         final_grade = "A-"
