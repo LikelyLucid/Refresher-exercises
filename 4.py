@@ -38,4 +38,4 @@ for student in students:
     else:
         final_grade = "E"
 
-    print
+    print(student, final_grade)
