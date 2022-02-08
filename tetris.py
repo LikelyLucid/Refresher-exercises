@@ -19,3 +19,6 @@ blue = (0, 0, 255)
 screen_width = 900
 screen_height = 600
 gameWindow = pygame.display.set_mode((screen_width, screen_height))
+
+# Game Title
+pygame.display.set_caption("Snake Game")
