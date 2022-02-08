@@ -1,2 +1,2 @@
 print(sum(range(20, 26)))
-# thus
+# this is a range function 
