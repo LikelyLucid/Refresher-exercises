@@ -1,1 +1,1 @@
-# make a game of snake
+# make a game of snake using pygame
