@@ -7,7 +7,11 @@ def integer_checker(question):
     while True:
         try:
             number = input(question)
-            exit()
+            if number == "X" or "x":
+                exit()
+            else:
+                number = int(number)
+                return number
         except ValueError:
             print("Please enter a valid integer")
 
