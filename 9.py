@@ -1,4 +1,4 @@
 # function that only allows numbers to be entered
 def numbers_only(string):
     return bool(string.isdigit())
-numbers_only('123')
+print(numbers_only('123'))
