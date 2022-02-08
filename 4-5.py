@@ -7,6 +7,7 @@ while True:
     Grade = int(input("Enter the grade of the student: "))
     print(Grade)
     students.append([Student, Grade])
+
 print("The average grade is:", sum(student[1] for student in students) / len(students))
 print("The best grade is:", max(student[1] for student in students))
 
@@ -17,7 +18,7 @@ for student in students:
     print(student, grade)
     # convert grade to interger
     grade = int(float(grade))
-    # give grades
+    # give grades a letter grade
     if grade >= 90:
         final_grade = "A+"
     elif grade >= 85:
