@@ -1,1 +1,1 @@
-// ask user and then 
+// ask user and then print the result
