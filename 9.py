@@ -7,3 +7,7 @@ Test the program for the case where there are one and a quarter seconds between 
 thunder. (Answer = 0.42 kms)
 """
 seconds = float(
+    input("Enter the number of seconds between lightning and thunder: "))
+
+distance = seconds * 340
+print("The distance of the storm is", distance, "meters")
