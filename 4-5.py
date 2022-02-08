@@ -10,7 +10,7 @@ while True:
 
 print("The average grade is:", sum(student[1] for student in students) / len(students)) # get average grade by summing all grades and dividing by number of students
 print("The best grade is:", max(student[1] for student in students))
-# get best grade by finding the highest grade 
+# get best grade by finding the highest grade by using max function
 
 
 # Number 6
