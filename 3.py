@@ -20,8 +20,7 @@ def float_checker(question):
     """This function checks if an input is a float"""
     while True:
         try:
-            number = float(input(question))
-            return number
+            return float(input(question))
         except ValueError:
             print("Please enter a valid float")
 
