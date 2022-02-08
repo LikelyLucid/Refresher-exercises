@@ -7,5 +7,3 @@ volume = round(4 / 3 * math.pi * radius ** 3, 2)
 
 print("Area =", area, "square centimetres")
 print("Volume =", volume, "cubic centimetres")
-
-# alternatively
