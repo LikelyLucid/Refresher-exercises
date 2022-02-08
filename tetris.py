@@ -1,1 +1,1 @@
-# make a
+# make a game of snake
