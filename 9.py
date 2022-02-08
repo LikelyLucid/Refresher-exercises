@@ -6,4 +6,4 @@ distance of the storm.
 Test the program for the case where there are one and a quarter seconds between the lightning and
 thunder. (Answer = 0.42 kms)
 """
-inp
+s
