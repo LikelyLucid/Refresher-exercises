@@ -29,7 +29,10 @@ while True:
     building_type = integer_checker("Enter the building type: \n1 = Resdential\n2 = Commercial\n")
     length = float_checker("Enter the length of the building in meters: ")
     width = float_checker("Enter the width of the building in meters: ")
-    depth = res_concrete_thickness if building_type == 1 else concrete_thickness
+    if building_type == 1:
+        depth = res_concrete_thickness
+    else:
+        depth = concrete_thickness
     volume = length * width * depth
     print(
         "The volume of concrete required for a slab with a length of {length} and width of {width} and a depth of {depth} is {volume} cubic metres.".format(
