@@ -11,6 +11,6 @@ swimming_hours = int(input("How many hours did you swim? "))
 
 total_calories = bike_hours * biking_cal + jogging_hours * jogging_cal + swimming_hours * swimming_cal # add them all together
 
-print("you lost", round(total_calories * weight_lost / 1000, 3), "kg") #divide by 1000 to get kg
+print("you lost", round(total_calories * weight_lost / 1000, 3), "kg") #divide by 1000 to get kg and round to 3 decimal places
 
 
