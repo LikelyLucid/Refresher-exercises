@@ -1,4 +1,3 @@
-pi = 3.14159265359
 import math
 radius = float(input("Enter the radius of the sphere: "))
 
