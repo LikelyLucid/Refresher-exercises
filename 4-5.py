@@ -17,6 +17,7 @@ for student in students:
     print(student, grade)
     # convert grade to interger
     grade = int(float(grade))
+    # give grades
     if grade >= 90:
         final_grade = "A+"
     elif grade >= 85:
