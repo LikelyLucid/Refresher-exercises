@@ -8,8 +8,7 @@ def integer_checker(question):
         try:
             number = input(question)
     
-            else:
-                number = int(number)
+            else:                number = int(number)
                 return number
         except ValueError:
             print("Please enter a valid integer")
