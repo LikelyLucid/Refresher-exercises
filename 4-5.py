@@ -8,7 +8,9 @@ while True:
     print(Grade)
     students.append([Student, Grade])
 
-print("The average grade is:", sum(student[1] for student in students) / len(students)) # get average grade by summing all grades and dividing by number of students
+# get average grade by summing all grades and dividing by number of students
+print("The average grade is:", sum(student[1]
+      for student in students) / len(students))
 print("The best grade is:", max(student[1] for student in students))
 # get best grade by finding the highest grade by using max function
 
@@ -44,4 +46,4 @@ for student in students:
     else:
         final_grade = "E"
 
-    print(student," - " ,final_grade)
+    print(student, " - ", final_grade)
