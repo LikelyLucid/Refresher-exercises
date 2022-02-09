@@ -7,9 +7,8 @@ def integer_checker(question):
     while True:
         try:
             number = input(question)
-    
-            else:                number = int(number)
-                return number
+            number = int(number)
+            return number
         except ValueError:
             print("Please enter a valid integer")
 
@@ -24,7 +23,8 @@ def float_checker(question):
 
 
 while True:
-    building_type = integer_checker("Enter the building type: \n1 = Resdential\n2 = Commercial\n")
+    building_type = integer_checker(
+        "Enter the building type: \n1 = Resdential\n2 = Commercial\n")
     length = float_checker("Enter the length of the building in meters: ")
     width = float_checker("Enter the width of the building in meters: ")
     if building_type == 1:
