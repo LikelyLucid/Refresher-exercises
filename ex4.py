@@ -4,4 +4,4 @@ def check_factor(num1, num2):
         return True
     else:
         return False
-
+num
