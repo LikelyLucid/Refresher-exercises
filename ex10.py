@@ -3,7 +3,7 @@
 def calc_gst(price):
     price = price * 1.15
     # round price to 2 dp
-    p
+    price = round(price, 2)
     return price
 
 print(calc_gst(100))
