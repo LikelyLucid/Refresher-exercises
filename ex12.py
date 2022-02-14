@@ -13,7 +13,7 @@ the ticket to the user:
 • Student $9.00
 • Child $7.00
 Gift Voucher is free
-o When a ticket is sold, keep track of how
+When a ticket is sold, keep track of how
 many are sold of each type.
 At the end of the day, print out the total tickets
 sold/used, how many tickets were sold of each
