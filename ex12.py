@@ -21,4 +21,4 @@ type, and the total value of tickets.
 Advanced challenge: Allow the user to cancel
 buying a ticket
 """
-adult
+adult_price = 12.50
