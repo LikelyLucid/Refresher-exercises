@@ -23,4 +23,4 @@ buying a ticket
 """
 adult_price = 12.50
 student_price = 9.00
-chi
+child_
