@@ -6,4 +6,4 @@ def calc_gst(price):
     price = round(price, 2)
     return price
 
-print(calc_gst(100))
+print(calc_gst(1067))
