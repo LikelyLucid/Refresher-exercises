@@ -70,3 +70,29 @@ def get_total(ticket, quantity):
         return gift_price * quantity
     else:
         return 0
+
+
+while True:
+    ticket = get_ticket()
+    if ticket == "Cancelled":
+        break
+    quantity = get_quantity()
+    if quantity == "Cancelled":
+        break
+    total_value += get_total(ticket, quantity)
+    if ticket == "Adult":
+        total_adult_tickets += quantity
+    elif ticket == "Student":
+        total_student_tickets += quantity
+    elif ticket == "Child":
+        total_child_tickets += quantity
+    elif ticket == "Gift Voucher":
+        total_gift_tickets += quantity
+    total_tickets += quantity
+
+print("Total tickets sold:", total_tickets)
+print("Adult tickets sold:", total_adult_tickets)
+print("Student tickets sold:", total_student_tickets)
+print("Child tickets sold:", total_child_tickets)
+print("Gift Voucher tickets sold:", total_gift_tickets)
+print("Total sales:", total_value)
