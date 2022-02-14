@@ -4,4 +4,5 @@ def check_factor(num1, num2):
         return True
     else:
         return False
-num
+num1 = int(input("Enter a number: "))
+num2
