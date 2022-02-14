@@ -7,3 +7,4 @@ def longest_word(string_list):
     return longest
 
 words = ["jack", "tomato", "cat"]
+print(longest_word(words))
