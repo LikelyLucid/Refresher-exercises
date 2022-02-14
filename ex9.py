@@ -6,4 +6,4 @@ def longest_word(string_list):
             longest = word
     return longest
 
-words = []
+words = [""]
