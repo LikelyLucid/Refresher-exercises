@@ -61,6 +61,7 @@ def get_quantity():
 
 def get_total(ticket, quantity):
     if ticket == "Adult":
+        
         return adult_price * quantity
     elif ticket == "Student":
         return student_price * quantity
