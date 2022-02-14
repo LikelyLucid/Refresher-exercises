@@ -34,4 +34,4 @@ def get_ticket():
         return "Student"
     elif ticket == "c":
         return "Child"
-    e
+    elif
