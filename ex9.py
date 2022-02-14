@@ -5,4 +5,4 @@ def longest_word(string_list):
         if len(word) > len(longest):
             longest = word
     return longest
-longest
+
