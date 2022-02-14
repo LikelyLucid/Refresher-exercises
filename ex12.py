@@ -22,3 +22,4 @@ Advanced challenge: Allow the user to cancel
 buying a ticket
 """
 adult_price = 12.50
+s
