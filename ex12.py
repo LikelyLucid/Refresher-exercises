@@ -52,4 +52,4 @@ def get_quantity():
         print("Invalid quantity. Please try again.")
         get_quantity()
 
-def get_
+def get_total
