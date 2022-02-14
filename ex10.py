@@ -2,7 +2,7 @@
 """
 def calc_gst(price):
     price = price * 1.15
-    #now 
+    # round price to 2 def_prog_mode()
     return price
 
 print(calc_gst(100))
