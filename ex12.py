@@ -26,7 +26,8 @@ student_price = 9.00
 child_price = 7.00
 gift_price = 0
 
-total_adult
+total_adult_tickets = 0
+
 def get_ticket():
     ticket = input("What type of ticket would you like to buy?\n (A)dult, (S)tudent, (C)hild, or (G)ift Voucher?\nX to cancel").lower()
     if ticket == "a":
