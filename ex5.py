@@ -8,4 +8,5 @@ def numbers_in_list(list, multiple):
         if num % multiple == 0:
             new_list.append(num)
     return new_list
+
 print(numbers_in_list([1, 2, 3, 4, 5, 6, 7, 8, 9, 10], 3))
