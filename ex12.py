@@ -34,4 +34,6 @@ def get_ticket():
         return "Student"
     elif ticket == "c":
         return "Child"
-    elif
+    elif ticket == "g":
+        return "Gift Voucher"
+    else
