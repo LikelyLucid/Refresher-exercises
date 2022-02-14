@@ -9,4 +9,4 @@ def starts_with_a(word):
 if starts_with_a("Aardvark"):
     print("The word starts with an A")
 else:
-    p
+    print("The word does not start with an A")
