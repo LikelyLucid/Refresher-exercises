@@ -24,3 +24,4 @@ buying a ticket
 adult_price = 12.50
 student_price = 9.00
 child_price = 7.00
+gift_
