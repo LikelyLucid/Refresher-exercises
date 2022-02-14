@@ -6,3 +6,4 @@ def starts_with_a(word):
         return True
     else:
         return False
+if starts_with_a()
