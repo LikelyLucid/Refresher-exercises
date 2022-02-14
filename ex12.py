@@ -42,4 +42,13 @@ def get_ticket():
         print("Invalid ticket type. Please try again.")
         get_ticket()
 
-def 
+def get_quantity():
+    quantity = input("How many tickets would you like to buy?\nX to cancel")
+    if quantity == "x":
+        return "Cancelled"
+    else:
+        try:
+            return int(quantity)
+        except ValueError:
+            print("Invalid quantity. Please try again.")
+            get_quantity()
