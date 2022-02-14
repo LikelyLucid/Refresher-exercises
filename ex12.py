@@ -30,6 +30,5 @@ def get_ticket():
     ticket = input("What type of ticket would you like to buy?\n (A)dult, (S)tudent, (C)hild, or (G)ift Voucher? ").lower()
     if ticket == "a":
         return "Adult"
-    elif:
-        ticket == "s":
+    elif ticket == "s":
         return "Student"
