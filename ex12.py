@@ -70,7 +70,7 @@ def get_total(ticket, quantity):
         total_child_tickets += quantity
         return child_price * quantity
     elif ticket == "Gift Voucher":
-        total_student_tickets += quantity
+        total_gift_tickets += quantity
         return gift_price * quantity
     else:
         return 0
