@@ -42,4 +42,4 @@ def get_ticket():
         print("Invalid ticket type. Please try again.")
         get_ticket()
 
-def get_a
+def 
