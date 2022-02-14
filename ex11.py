@@ -13,3 +13,4 @@ def calc_fine(days_late):
             fine = max_fine
     return fine
 
+print("")
