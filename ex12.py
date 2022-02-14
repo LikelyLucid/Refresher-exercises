@@ -96,4 +96,4 @@ print("Adult tickets sold:", total_adult_tickets)
 print("Student tickets sold:", total_student_tickets)
 print("Child tickets sold:", total_child_tickets)
 print("Gift Voucher tickets sold:", total_gift_tickets)
-print("Total sales:", total_value)#
+print("Total sales:", total_value)
