@@ -37,3 +37,4 @@ def get_ticket():
     elif ticket == "g":
         return "Gift Voucher"
     else:
+        print()
