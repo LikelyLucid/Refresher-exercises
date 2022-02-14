@@ -27,4 +27,4 @@ child_price = 7.00
 gift_price = 0
 
 def get_ticket():
-    ticket = input("What type of ticket would you like to buy? (A/S/C/G): ")
+    ticket = input("What type of ticket would you like to buy? (
