@@ -2,4 +2,4 @@
 numbers in the given list that are a multiple of that number. See the examples below to understand what is
 needed :
 """
-
+def 
