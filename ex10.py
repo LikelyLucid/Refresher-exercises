@@ -2,4 +2,4 @@
 """
 def calc_gst(price):
     price = price * 1.15
-    return price[]
+    return price[:]
