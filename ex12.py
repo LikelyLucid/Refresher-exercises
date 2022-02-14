@@ -41,3 +41,5 @@ def get_ticket():
     else:
         print("Invalid ticket type. Please try again.")
         get_ticket()
+
+def
