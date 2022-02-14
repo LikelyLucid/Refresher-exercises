@@ -37,7 +37,7 @@ def get_ticket():
     elif ticket == "g":
         return "Gift Voucher"
     elif ticket == "x":
-        
+        return "Cancelled"
     else:
         print("Invalid ticket type. Please try again.")
         get_ticket()
