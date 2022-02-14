@@ -7,7 +7,7 @@ Keep asking for tickets until the end of the day
 another ticket? (Y/N) ")
 Tickets sold are either Adult, Student, Child, or
 they use a Gift Voucher.
-o When a ticket is sold, print the price of
+When a ticket is sold, print the price of
 the ticket to the user:
 • Adult $12.50
 Student $9.00
