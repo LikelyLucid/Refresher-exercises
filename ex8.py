@@ -5,3 +5,4 @@ def print_word(word, number):
     Prints the given number of letters in uppercase and the rest in lowercase.
     """
     print(word[:number].upper() + word[number:].lower())
+print(print_word('Python', 2))
