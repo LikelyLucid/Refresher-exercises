@@ -50,7 +50,7 @@ def get_ticket():
         get_ticket()
 
 def get_quantity():
-    quantity = input("How many tickets would you like to buy?\nX to cancel")
+    quantity = input("How many tickets would you like to buy?\nX to cancel\n")
     if quantity == "x":
         return "Cancelled"
     try:
