@@ -26,4 +26,5 @@ student_price = 9.00
 child_price = 7.00
 gift_price = 0
 
-def get_ticket
+def get_ticket():
+    
