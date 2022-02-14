@@ -10,7 +10,7 @@ they use a Gift Voucher.
 When a ticket is sold, print the price of
 the ticket to the user:
 • Adult $12.50
-Student $9.00
+• Student $9.00
 • Child $7.00
 Gift Voucher is free
 o When a ticket is sold, keep track of how
