@@ -21,3 +21,4 @@ type, and the total value of tickets.
 Advanced challenge: Allow the user to cancel
 buying a ticket
 """
+ad
