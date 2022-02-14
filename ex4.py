@@ -9,4 +9,5 @@ num2 = int(input("Enter another number: "))
 
 if check_factor(num1, num2):
     print("The second number is a factor of the first.")
-else
+else:
+    print("The second number is not a factor of the first.")
