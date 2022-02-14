@@ -2,6 +2,6 @@
 """
 def calc_gst(price):
     price = price * 1.15
-    return price
+    return price.round(2)
 
 print(calc_gst(100))
