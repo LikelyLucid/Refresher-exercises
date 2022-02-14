@@ -12,3 +12,4 @@ def calc_fine(days_late):
         if fine > max_fine:
             fine = max_fine
     return fine
+
