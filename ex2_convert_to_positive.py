@@ -2,3 +2,4 @@
 def make_positive(num):
     return abs(num)
 
+print
