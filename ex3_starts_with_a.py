@@ -7,3 +7,4 @@ def starts_with_a(word):
     else:
         return False
 if starts_with_a("Aardvark"):
+    print("The word starts with an A")
