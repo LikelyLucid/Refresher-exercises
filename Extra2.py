@@ -6,4 +6,9 @@ Your task is to write a program that replaces all the letter q's with a letter "
 of distress)
 """
 
-def remove_q
+def remove_q(input_list):
+    for i in range(len(input_list)):
+        if input_list[i] == "q":
+            input_list[i] = "p"
+    return input_list
+
