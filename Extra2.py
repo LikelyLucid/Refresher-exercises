@@ -11,4 +11,4 @@ def remove_q(input_list):
         if input_list[i] == "q":
             input_list[i] = "p"
     return input_list
-
+input
