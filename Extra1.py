@@ -6,4 +6,4 @@ Your program must output the sum of all the numbers.
 input_list = input("enter your inputs").split()
 
 for i in range(len(input_list)):
-    
+    if i 
