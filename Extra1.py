@@ -7,4 +7,4 @@ input_list = input("enter your inputs").split()
 
 for i in range(len(input_list)):
     input_list[i] = int(input_list[i])
-    
+    if
