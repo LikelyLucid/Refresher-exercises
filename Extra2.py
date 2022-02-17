@@ -6,4 +6,4 @@ Your task is to write a program that replaces all the letter q's with a letter "
 of distress)
 """
 
-def remove
+def remove_q
