@@ -15,7 +15,7 @@ def get_ticket():
     if ticket == "a":
         return "Adult"
     elif ticket == "s":
-        return "Student"
+        return "Student"c
     elif ticket == "c":
         return "Child"
     elif ticket == "g":
