@@ -11,4 +11,5 @@ for i in range(len(input_list)):
         break
     else:
         sum += input_list[i]
+print(sum)
 
