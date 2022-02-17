@@ -10,5 +10,5 @@ for i in range(len(input_list)):
     if input_list[i] == "#":
         break
     else:
-        
+        sum += input_list[i]
 
