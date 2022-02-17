@@ -1,4 +1,3 @@
-
 input_list = input("enter your inputs").split()
 sum = 0
 print(input_list)
